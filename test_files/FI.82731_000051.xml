@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns:LEGACY_FOSFI82 xmlns:ns="urn:panalpina.com:common:forwardingsettlementdocument">
+  <LEGACY_FOSFI82 FileName="FI.82731.20150421T112615" RecordGroup="20731911656" NumberofRecordsinGroup="2" ListofRecordNumbersinGroup="101 102 " TotalNumberofRecords="139">
+    <DETAIL FileName="FI.82731.20150421T112615" RecordGroup="20731911656" RecordType="D" RecordNumber="101" TotalNumberofRecords="139">
+      <RECO82>20</RECO82>
+      <OFFN82>731</OFFN82>
+      <BOKY82>15</BOKY82>
+      <BOKM82>04</BOKM82>
+      <ADEB82>000000</ADEB82>
+      <AKRE82>749333</AKRE82>
+      <VOUT82>20</VOUT82>
+      <VOUN82>911656</VOUN82>
+      <VODD82>21</VODD82>
+      <VODM82>04</VODM82>
+      <AMOI82>0000068798</AMOI82>
+      <AMOF82>00000000000</AMOF82>
+      <TAXC82>2</TAXC82>
+      <BOKT82>AE/61891609840   </BOKT82>
+      <FIL182>  N</FIL182>
+      <VODY82>15</VODY82>
+      <ATYP82>D</ATYP82>
+      <CURR82>SGD</CURR82>
+      <DECI82>2</DECI82>
+      <CSTE82>#</CSTE82>
+      <BRKD82>00</BRKD82>
+      <CTRY82>   </CTRY82>
+      <FALL82>150421</FALL82>
+      <SEQN82/>
+    </DETAIL>
+    <HEADER FileName="FI.82731.20150421T112615" RecordGroup="20731911656" RecordType="C" RecordNumber="102" TotalNumberofRecords="139">
+      <RECO82>20</RECO82>
+      <OFFN82>731</OFFN82>
+      <BOKY82>15</BOKY82>
+      <BOKM82>04</BOKM82>
+      <ADEB82>250880</ADEB82>
+      <AKRE82>000000</AKRE82>
+      <VOUT82>20</VOUT82>
+      <VOUN82>911656</VOUN82>
+      <VODD82>21</VODD82>
+      <VODM82>04</VODM82>
+      <AMOI82>0000068798</AMOI82>
+      <AMOF82>00000000000</AMOF82>
+      <TAXC82> </TAXC82>
+      <BOKT82>749333/FR        </BOKT82>
+      <FIL182>  N</FIL182>
+      <VODY82>15</VODY82>
+      <ATYP82>C</ATYP82>
+      <CURR82>SGD</CURR82>
+      <DECI82>2</DECI82>
+      <CSTE82>#</CSTE82>
+      <BRKD82>00</BRKD82>
+      <CTRY82>   </CTRY82>
+      <FALL82>150421</FALL82>
+      <SEQN82/>
+    </HEADER>
+  </LEGACY_FOSFI82>
+</ns:LEGACY_FOSFI82>

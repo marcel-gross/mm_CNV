@@ -1,0 +1,239 @@
+{
+	"FOS_FI82": {
+		"RECORD_NAME": "LEGACY_FOSFI82",
+		"NAMESPACE": "urn:panalpina.com:common:forwardingsettlementdocument",
+		"REC_ART": [{
+				"HEADER": {
+					"POSITION": "076:077",
+					"OPERATOR": "eq",
+					"VALUE": "C",
+					"REC_FIELDS": {
+						"RECO82": {
+							"POSITION": "000:002"
+						},
+						"OFFN82": {
+							"POSITION": "002:005"
+						},
+						"BOKY82": {
+							"POSITION": "005:007"
+						},
+						"BOKM82": {
+							"POSITION": "007:009"
+						},
+						"ADEB82": {
+							"POSITION": "009:015"
+						},
+						"AKRE82": {
+							"POSITION": "015:021"
+						},
+						"VOUT82": {
+							"POSITION": "021:023"
+						},
+						"VOUN82": {
+							"POSITION": "023:029"
+						},
+						"VODD82": {
+							"POSITION": "029:031"
+						},
+						"VODM82": {
+							"POSITION": "031:033"
+						},
+						"AMOI82": {
+							"POSITION": "033:043"
+						},
+						"AMOF82": {
+							"POSITION": "043:054"
+						},
+						"TAXC82": {
+							"POSITION": "054:055"
+						},
+						"BOKT82": {
+							"POSITION": "055:072"
+						},
+						"FIL182": {
+							"POSITION": "072:075"
+						},
+						"VODY82": {
+							"POSITION": "075:077"
+						},
+						"ATYP82": {
+							"POSITION": "077:078"
+						},
+						"CURR82": {
+							"POSITION": "078:081"
+						},
+						"DECI82": {
+							"POSITION": "081:082"
+						},
+						"CSTE82": {
+							"POSITION": "082:083"
+						},
+						"BRKD82": {
+							"POSITION": "083:085"
+						},
+						"CTRY82": {
+							"POSITION": "085:088"
+						},
+						"FALL82": {
+							"POSITION": "088:094"
+						},
+						"SEQN82": {
+							"POSITION": "094:100"
+						}
+					},
+					"SYS_FIELDS": {
+						"SYSFLD": {
+							"VALUE": "uname -a"
+						}
+					},
+					"REC_GROUP": [{
+							"RECO82": {
+								"POSITION": "000:002"
+							}
+						},
+						{
+							"OFFN82": {
+								"POSITION": "002:005"
+							}
+						},
+						{
+							"VOUN82": {
+								"POSITION": "023:029"
+							}
+						}
+					]
+				}
+			},
+			{
+				"DETAIL": {
+					"POSITION": "076:077",
+					"OPERATOR": "eq",
+					"VALUE": "D",
+					"REC_FIELDS": {
+						"RECO82": {
+							"POSITION": "000:002"
+						},
+						"OFFN82": {
+							"POSITION": "002:005"
+						},
+						"BOKY82": {
+							"POSITION": "005:007"
+						},
+						"BOKM82": {
+							"POSITION": "007:009"
+						},
+						"ADEB82": {
+							"POSITION": "009:015"
+						},
+						"AKRE82": {
+							"POSITION": "015:021"
+						},
+						"VOUT82": {
+							"POSITION": "021:023"
+						},
+						"VOUN82": {
+							"POSITION": "023:029"
+						},
+						"VODD82": {
+							"POSITION": "029:031"
+						},
+						"VODM82": {
+							"POSITION": "031:033"
+						},
+						"AMOI82": {
+							"POSITION": "033:043"
+						},
+						"AMOF82": {
+							"POSITION": "043:054"
+						},
+						"TAXC82": {
+							"POSITION": "054:055"
+						},
+						"BOKT82": {
+							"POSITION": "055:072"
+						},
+						"FIL182": {
+							"POSITION": "072:075"
+						},
+						"VODY82": {
+							"POSITION": "075:077"
+						},
+						"ATYP82": {
+							"POSITION": "077:078"
+						},
+						"CURR82": {
+							"POSITION": "078:081"
+						},
+						"DECI82": {
+							"POSITION": "081:082"
+						},
+						"CSTE82": {
+							"POSITION": "082:083"
+						},
+						"BRKD82": {
+							"POSITION": "083:085"
+						},
+						"CTRY82": {
+							"POSITION": "085:088"
+						},
+						"FALL82": {
+							"POSITION": "088:094"
+						},
+						"SEQN82": {
+							"POSITION": "094:100"
+						}
+					},
+					"SYS_FIELDS": {
+						"SYSFLD": {
+							"VALUE": "uname -a"
+						}
+					},
+					"REC_GROUP": [{
+							"RECO82": {
+								"POSITION": "000:002"
+							}
+						},
+						{
+							"OFFN82": {
+								"POSITION": "002:005"
+							}
+						},
+						{
+							"VOUN82": {
+								"POSITION": "023:029"
+							}
+						}
+					]
+				}
+			},
+			{
+				"VAT": {
+					"POSITION": "076:077",
+					"OPERATOR": "!~",
+					"VALUE": "m/[C|D]/",
+					"REC_FIELDS": {
+						"CRECORD": {
+							"POSITION": "000:100"
+						}
+					},
+					"REC_GROUP": [{
+							"RECO82": {
+								"POSITION": "000:002"
+							}
+						},
+						{
+							"OFFN82": {
+								"POSITION": "002:005"
+							}
+						},
+						{
+							"VOUN82": {
+								"POSITION": "023:029"
+							}
+						}
+					]
+				}
+			}
+		]
+	}
+}

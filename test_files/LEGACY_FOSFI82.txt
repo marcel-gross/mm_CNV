@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns="urn:panalpina.com:common:forwardingsettlementdocument" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	  <xsd:complexType name="LEGACY_FOSFI82">
+	    <xsd:sequence>
+	      <xsd:element name="LEGACY_FOSFI82" minOccurs="0" maxOccurs="unbounded">
+	        <xsd:complexType>
+	          <xsd:sequence>
+	      <xsd:element name="HEADER" minOccurs="0" maxOccurs="unbounded">
+	        <xsd:complexType>
+	          <xsd:sequence>
+	                   <xsd:element name="RECO82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="002"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="OFFN82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="003"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="BOKY82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="002"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="BOKM82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="002"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="ADEB82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="006"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="AKRE82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="006"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="VOUT82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="002"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="VOUN82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="006"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="VODD82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="002"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="VODM82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="002"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="AMOI82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="010"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="AMOF82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="011"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="TAXC82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="001"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="BOKT82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="017"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="FIL182" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="003"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="VODY82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="002"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="ATYP82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="001"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="CURR82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="003"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="DECI82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="001"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="CSTE82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="001"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="BRKD82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="002"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="CTRY82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="003"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="FALL82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="006"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="SEQN82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="006"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	          </xsd:sequence>
+	          <xsd:attribute type="xsd:string" name="FileName" use="optional"/>
+	          <xsd:attribute type="xsd:string" name="RecordGroup" use="optional"/>
+	          <xsd:attribute type="xsd:string" name="RecordType" use="optional"/>
+	          <xsd:attribute type="xsd:string" name="RecordNumber" use="optional"/>
+	          <xsd:attribute type="xsd:string" name="TotalNumberofRecords" use="optional"/>
+	        </xsd:complexType>
+	      </xsd:element>
+	      <xsd:element name="DETAIL" minOccurs="0" maxOccurs="unbounded">
+	        <xsd:complexType>
+	          <xsd:sequence>
+	                   <xsd:element name="RECO82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="002"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="OFFN82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="003"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="BOKY82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="002"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="BOKM82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="002"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="ADEB82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="006"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="AKRE82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="006"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="VOUT82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="002"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="VOUN82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="006"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="VODD82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="002"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="VODM82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="002"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="AMOI82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="010"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="AMOF82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="011"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="TAXC82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="001"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="BOKT82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="017"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="FIL182" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="003"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="VODY82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="002"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="ATYP82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="001"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="CURR82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="003"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="DECI82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="001"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="CSTE82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="001"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="BRKD82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="002"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="CTRY82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="003"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="FALL82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="006"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	                   <xsd:element name="SEQN82" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="006"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	          </xsd:sequence>
+	          <xsd:attribute type="xsd:string" name="FileName" use="optional"/>
+	          <xsd:attribute type="xsd:string" name="RecordGroup" use="optional"/>
+	          <xsd:attribute type="xsd:string" name="RecordType" use="optional"/>
+	          <xsd:attribute type="xsd:string" name="RecordNumber" use="optional"/>
+	          <xsd:attribute type="xsd:string" name="TotalNumberofRecords" use="optional"/>
+	        </xsd:complexType>
+	      </xsd:element>
+	      <xsd:element name="VAT" minOccurs="0" maxOccurs="unbounded">
+	        <xsd:complexType>
+	          <xsd:sequence>
+	                   <xsd:element name="CRECORD" minOccurs="0">
+		             <xsd:simpleType>
+		               <xsd:restriction base="xsd:string">
+		                 <xsd:maxLength value="100"/>
+		               </xsd:restriction>
+		             </xsd:simpleType>
+		           </xsd:element>
+	          </xsd:sequence>
+	          <xsd:attribute type="xsd:string" name="FileName" use="optional"/>
+	          <xsd:attribute type="xsd:string" name="RecordGroup" use="optional"/>
+	          <xsd:attribute type="xsd:string" name="RecordType" use="optional"/>
+	          <xsd:attribute type="xsd:string" name="RecordNumber" use="optional"/>
+	          <xsd:attribute type="xsd:string" name="TotalNumberofRecords" use="optional"/>
+	        </xsd:complexType>
+	      </xsd:element>
+	          </xsd:sequence>
+	          <xsd:attribute type="xsd:string" name="FileName" use="optional"/>
+	          <xsd:attribute type="xsd:string" name="RecordGroup" use="optional"/>
+	          <xsd:attribute type="xsd:string" name="RecordNumber" use="optional"/>
+	          <xsd:attribute type="xsd:string" name="TotalNumberofRecords" use="optional"/>
+	        </xsd:complexType>
+	      </xsd:element>
+	    </xsd:sequence>
+	  </xsd:complexType>
+</xsd:schema>
